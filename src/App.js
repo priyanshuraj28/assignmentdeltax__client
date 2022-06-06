@@ -1,11 +1,11 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      setup react
+    <div >
+      <Header></Header>
     </div>
   );
 }
-
 export default App;
