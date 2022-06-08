@@ -9,6 +9,7 @@ import aaoge from "./images/aaoge jab tum.jpg";
 import maa from "./images/maa.jpg";
 import udaariyan from "./images/udaariyan.jpg";
 import tum from "./images/tum hi ho.jpg";
+import Artistdetails from "./components/Artistdetails";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             <div id="s2">+Add Music</div>
           </Link>
         </div> */}
-         <Music
+         {/* <Music
             Artwork={maa}
             song="Maa"
             dateOfRelease="May 12,2019"
@@ -44,6 +45,26 @@ function App() {
             song="Aaoge jab tum"
             dateOfRelease="May 30,2011"
             Artist="Rasid Khan"
+          /> */}
+          <Artistdetails
+            name="Shankar Mahadevan"
+            dob="3 March 1967"
+            songslist="Maa,Koi Kahe Kahta Rahe "
+          />
+          <Artistdetails
+            name="Sattindar Sartaj"
+            dob="31 August 1982"
+            songslist="Udaariyan,Kamaal ho Gea"
+          />
+           <Artistdetails
+            name="Arijit Singh"
+            dob="25 April 1987"
+            songslist="Tum hi ho,Humdard,Naina"
+          />
+          <Artistdetails
+            name="Rashid Khan"
+            dob="1 July 1968"
+            songslist="Maahi Ve,Ishq ka rang,Tip Tip"
           />
         {/* <Music/> */}
       </Route>

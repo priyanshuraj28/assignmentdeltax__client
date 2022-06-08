@@ -92,3 +92,13 @@
   border-left: 2px solid gray;
   width: 200px;
 }
+#artistinfo{
+  display: flex;
+  justify-content: space-around;
+  line-height: 80px;
+}
+#ai{
+  width: 450px;
+  text-align: center;
+  border-right: 2px solid gray;
+}
