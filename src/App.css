@@ -102,3 +102,9 @@
   text-align: center;
   border-right: 2px solid gray;
 }
+#art{
+  padding-left: 20px;
+  margin-top: 80px;
+  font-size: x-large;
+  border-bottom: 2px solid gray;
+}

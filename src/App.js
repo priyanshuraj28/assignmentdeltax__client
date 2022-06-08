@@ -10,19 +10,21 @@ import maa from "./images/maa.jpg";
 import udaariyan from "./images/udaariyan.jpg";
 import tum from "./images/tum hi ho.jpg";
 import Artistdetails from "./components/Artistdetails";
+import Artistheader from './components/Artistheader';
+
 
 function App() {
   return (
     <Switch>
       <Route exact path="/">
-        {/* <Header />
+        <Header />
         <div id="s">
           <div id="s1">Top 10 Musics</div>
           <Link id="s3" to="/AddNewMusic">
             <div id="s2">+Add Music</div>
           </Link>
-        </div> */}
-         {/* <Music
+        </div>
+         <Music
             Artwork={maa}
             song="Maa"
             dateOfRelease="May 12,2019"
@@ -45,7 +47,9 @@ function App() {
             song="Aaoge jab tum"
             dateOfRelease="May 30,2011"
             Artist="Rasid Khan"
-          /> */}
+          />
+          
+          <Artistheader />
           <Artistdetails
             name="Shankar Mahadevan"
             dob="3 March 1967"
